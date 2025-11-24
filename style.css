@@ -1,83 +1,97 @@
-/* --- Grundfarben & Kontraste --- */
+/* === Grundlayout === */
 body {
-  background-color: #000000;
-  color: #f2f6ff;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+    background-color: #000000;
+    color: #f2f6ff;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
 }
 
-/* --- Header --- */
-header {
-  background: linear-gradient(135deg, #001a33, #000b14);
-  padding: 70px 0;
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 30px;
+/* === Header === */
+header, .jumbotron {
+    background: #001122 !important;
+    color: #ffffff !important;
+    padding: 60px 20px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid #0de3ff;
 }
 
-header h1 {
-  font-size: 3.2rem;
-  font-weight: bold;
-  color: #e8f4ff;
+header h1, .jumbotron h1 {
+    color: #aee9ff;
+    font-size: 2.8rem;
 }
 
-/* --- Navigation --- */
+/* === Container / Sections === */
+.container, section, .content-box {
+    background: #0b0f17 !important;
+    color: #e8f3ff !important;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: 1px solid #1a2636;
+}
+
+/* === Standardtext === */
+p {
+    color: #e8f3ff !important;
+    font-size: 1.05rem;
+}
+
+/* === Überschriften === */
+h2, h3, h4 {
+    color: #76e6ff;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* === Listen === */
+li {
+    color: #dff4ff !important;
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+/* === Links === */
+a {
+    color: #7be8ff !important;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 8px #7be8ff;
+}
+
+/* === Bilder === */
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.25);
+}
+
+/* === Navigation === */
 .navbar {
-  background-color: #000814 !important;
+    background-color: #000814 !important;
 }
 
 .nav-link {
-  color: #7be8ff !important;
-  font-weight: 500;
+    color: #8ceaff !important;
 }
 
 .nav-link:hover {
-  color: #ffffff !important;
-  text-shadow: 0 0 10px #7be8ff;
+    color: #ffffff !important;
 }
 
-/* --- Überschriften --- */
-h2, h3 {
-  color: #7be8ff;
-  margin-bottom: 15px;
+/* === Footer === */
+footer {
+    background: #000c18;
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+    color: #b4dcff;
+    border-top: 1px solid #133042;
 }
-
-/* --- Sektionen --- */
-section {
-  background-color: #0a0d14;
-  padding: 25px;
-  border-radius: 10px;
-  margin-bottom: 25px;
-  border: 1px solid #112233;
-}
-
-/* --- Bilder --- */
-img {
-  max-width: 100%;
-  border-radius: 6px;
-  box-shadow: 0 0 25px rgba(0,255,255,0.25);
-  margin-bottom: 20px;
-}
-
-/* --- Listen & Text --- */
-ul li, ol li {
-  margin-bottom: 8px;
-  color: #d2e8ff;
-}
-
-/* --- Links im Content --- */
-section a {
-  color: #8beeff;
-  font-weight: bold;
-}
-
-section a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 10px #8beeff;
-}
-/* Fix für die Listen unter Bildern: */
-.container li,
-.container p {
-    color: #e9f3ff !important;
-}
-
