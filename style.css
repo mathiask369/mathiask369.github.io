@@ -1,47 +1,77 @@
+/* --- Grundfarben & Kontraste --- */
 body {
-  background-color: #0d0d0f;
-  color: #e6e6e6;
+  background-color: #000000;
+  color: #f2f6ff;
   font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
+/* --- Header --- */
 header {
-  background: linear-gradient(135deg, #0b1a33, #081018);
-  padding: 60px 0;
+  background: linear-gradient(135deg, #001a33, #000b14);
+  padding: 70px 0;
   text-align: center;
-  color: white;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-weight: bold;
+  color: #e8f4ff;
 }
 
+/* --- Navigation --- */
 .navbar {
-  background-color: #0a0f1a !important;
+  background-color: #000814 !important;
 }
 
 .nav-link {
-  color: #6de2ff !important;
+  color: #7be8ff !important;
+  font-weight: 500;
 }
 
 .nav-link:hover {
   color: #ffffff !important;
+  text-shadow: 0 0 10px #7be8ff;
 }
 
+/* --- Überschriften --- */
 h2, h3 {
-  color: #6de2ff;
+  color: #7be8ff;
+  margin-bottom: 15px;
 }
 
+/* --- Sektionen --- */
+section {
+  background-color: #0a0d14;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #112233;
+}
+
+/* --- Bilder --- */
 img {
   max-width: 100%;
   border-radius: 6px;
-  box-shadow: 0 0 20px rgba(0,255,255,0.2);
+  box-shadow: 0 0 25px rgba(0,255,255,0.25);
+  margin-bottom: 20px;
 }
 
-section {
-  background-color: #111319;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+/* --- Listen & Text --- */
+ul li, ol li {
+  margin-bottom: 8px;
+  color: #d2e8ff;
+}
+
+/* --- Links im Content --- */
+section a {
+  color: #8beeff;
+  font-weight: bold;
+}
+
+section a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #8beeff;
 }
