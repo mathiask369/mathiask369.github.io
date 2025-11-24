@@ -75,3 +75,9 @@ section a:hover {
   color: #ffffff;
   text-shadow: 0 0 10px #8beeff;
 }
+/* Fix für die Listen unter Bildern: */
+.container li,
+.container p {
+    color: #e9f3ff !important;
+}
+
