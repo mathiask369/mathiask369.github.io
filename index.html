@@ -1,96 +1,75 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <title>Bewusstseinszutände</title>
   <meta charset="utf-8">
+  <title>Bewusstseinszustände</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
+<header>
   <h1>Bewusstseinszustände</h1>
-  <p>Menschen können verschiedene Bewusstseinszutände erreichen. Genauers erfahrt ihr hier!</p>
-</div>
+  <p>Erkunde die verschiedenen Ebenen menschlichen Bewusstseins.</p>
+</header>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <a class="navbar-brand" href="index.html">Start</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+  <div class="collapse navbar-collapse" id="nav">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#Allgemeine_Infos">Allgemeine Infos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Gehirnwellen">Gehirnwellen</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Bewusstseinsveränderung">Wie komme ich in einen anderen Bewusstseinszutand?</a>
-      </li>
+      <li class="nav-item"><a class="nav-link" href="#infos">Allgemeines</a></li>
+      <li class="nav-item"><a class="nav-link" href="#waves">Gehirnwellen</a></li>
+      <li class="nav-item"><a class="nav-link" href="#change">Bewusstseinsveränderung</a></li>
     </ul>
   </div>
 </nav>
 
-<div class="container" style="margin-top:30px">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2 id="Allgemeine_Infos">Allgemeine Infos </h2>
-      <div><img width="300" src="https://www.trance-zentrum.ch/img/hp-bilder/bilder/brainwaves.jpg" alt="Mensch in einem anderen Bewusstseinszutand"></div>
-      <ul>
-        <li>Abhängig von Gehirnwellen</li>
-        <li>5 Gehirnwellenbereiche</li>
-        <li>Gamma, Beta, Alpha, Theta, Dellta
-      </ul>
-      <h3>Links</h3>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link" href="Meditation.html">Meditation</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Luzides_Traeumen.html">Bewusstes Träumen</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-8">
-      <h2 id="Gehirnwellen"> Gehirnwellen</h2>
-      <h5>Was passiert in den jeweiligen Gehirnwellenbereichen?</h5>
-      <div><img width="423" src="bewusstsein.png" alt="Gehirnwellenbereiche"></div>
-      <ul>
-        <li>Gamma = Panik, Stress; über 30Hz</li>
-        <li>Beta = Wachzustand; 30-15Hz</li>
-        <li>Alpha = Entspannt, Zwischen Wach und Schalf; 15-7Hz</li>
-        <li>Theta = Schlaf mit Träumen; 7-3Hz</li>
-        <li>Delta = Tiefschlaf; 3-0,1</li>
-      </ul>
-      <h2 id="Bewusstseinsveränderung">Wie komme ich in einen anderen Bewusstseinszutand?</h2>
-      <p>Grundsätzlich gelangen wir jeden Tag in die unterschiedlichen Bewusstseinszutände. Meistens jedoch unbewusst. Es gibt jedoch Möglichkeiten seinen Bewusstseinszutand zu ändern und live dabei zu sein.<br>
-         Der Körper hat sogar einen eigenen Schutzmechanismus damit wir nich bewusst in den Theta und vom Theta in den Delta bereich kommen. Ihr alle kennt es sicher, ihr wollt schlafen aber müsst euch die ganze Zeit umdrehen oder euch irgendwo krazten.<br>
-         Wenn du auf das Verlangen dich umzudrehen eingehst  oder dich kratzt, weiß der Körper dass du noch wach bist und lässt deine Gehirnwellen nicht weniger werden.</p>
-      <ul>
-        <li>Meditation</li>
-        <li>Frequenzen anhöhren = die Gehirnwellen passen sich an die Frequenz die man höhrt an</li>
-        <li>Psychoaktive Substanzen</li>
-        <li>Reizdeprivation = äußere Reize veringern, Verringerung der Stimulation des sensorischen Systems</li>
-        <li>Bewusstes Träumen</li>
-      </ul>
-    </div>
-  </div>
-</div>
+<div class="container">
 
-<div class="jumbotron text-center" style="margin-bottom:0">
+<section id="infos">
+  <h2>Allgemeine Infos</h2>
+  <img src="https://www.trance-zentrum.ch/img/hp-bilder/bilder/brainwaves.jpg">
+  <ul>
+    <li>Bewusstsein hängt von Gehirnwellen ab.</li>
+    <li>Es gibt 5 Hauptbereiche: Gamma, Beta, Alpha, Theta, Delta.</li>
+  </ul>
+
+  <h3>Links</h3>
+  <ul>
+    <li><a href="Meditation.html" class="nav-link">Meditation</a></li>
+    <li><a href="Luzides_Traeumen.html" class="nav-link">Bewusstes Träumen</a></li>
+  </ul>
+</section>
+
+<section id="waves">
+  <h2>Gehirnwellen</h2>
+  <img src="bewusstsein.png">
+  <ul>
+    <li>Gamma = Panik / Stress — über 30 Hz</li>
+    <li>Beta = Wachzustand — 30–15 Hz</li>
+    <li>Alpha = Entspannt — 15–7 Hz</li>
+    <li>Theta = Traumphase — 7–3 Hz</li>
+    <li>Delta = Tiefschlaf — 3–0,1 Hz</li>
+  </ul>
+</section>
+
+<section id="change">
+  <h2>Wie ändere ich meinen Bewusstseinszustand?</h2>
+  <ul>
+    <li>Meditation</li>
+    <li>Frequenzen hören</li>
+    <li>Psychoaktive Substanzen</li>
+    <li>Reizdeprivation</li>
+    <li>Luzides Träumen</li>
+  </ul>
+</section>
+
 </div>
 
 </body>
